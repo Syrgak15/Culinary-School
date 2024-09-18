@@ -1,0 +1,418 @@
+{
+  "recipes": [
+    {
+      "id": "1",
+      "title": "Spaghetti Aglio e Olio",
+      "ingredients": [
+        "spaghetti",
+        "garlic",
+        "olive oil",
+        "parsley",
+        "chili flakes"
+      ],
+      "instructions": "Cook spaghetti. In a pan, heat olive oil, add sliced garlic and chili flakes. Toss spaghetti with the mixture and garnish with parsley.",
+      "image": "https://scheckeats.com/wp-content/uploads/2021/01/aglio-e-olio-scaled.jpg",
+      "tips": "Use fresh garlic for better flavor. Adjust chili flakes to your spice preference.",
+      "serving_size": "2 servings",
+      "prep_time": "10 minutes",
+      "cook_time": "15 minutes"
+    },
+    {
+      "id": "2",
+      "title": "Chicken Curry",
+      "ingredients": [
+        "chicken",
+        "onions",
+        "tomatoes",
+        "curry powder",
+        "coconut milk"
+      ],
+      "instructions": "Sauté onions, add chicken and cook until browned. Add tomatoes, curry powder, and coconut milk. Simmer until chicken is cooked.",
+      "image": "https://feastwithsafiya.com/wp-content/uploads/2022/03/chicken-curry-recipe.jpg",
+      "tips": "Serve with rice or naan for a complete meal.",
+      "serving_size": "4 servings",
+      "prep_time": "15 minutes",
+      "cook_time": "30 minutes"
+    },
+    {
+      "id": "3",
+      "title": "Caesar Salad",
+      "ingredients": [
+        "romaine lettuce",
+        "croutons",
+        "parmesan cheese",
+        "Caesar dressing"
+      ],
+      "instructions": "Chop romaine lettuce, add croutons and parmesan. Drizzle with Caesar dressing and toss.",
+      "image": "https://www.joyfulhealthyeats.com/wp-content/uploads/2022/04/Classic-Caesar-Salad-with-Homemade-Croutons-web-4.jpg",
+      "tips": "Add grilled chicken for extra protein.",
+      "serving_size": "2 servings",
+      "prep_time": "10 minutes",
+      "cook_time": "0 minutes"
+    },
+    {
+      "id": "4",
+      "title": "Beef Tacos",
+      "ingredients": [
+        "taco shells",
+        "ground beef",
+        "lettuce",
+        "cheese",
+        "salsa"
+      ],
+      "instructions": "Cook ground beef with spices. Fill taco shells with beef, lettuce, cheese, and salsa.",
+      "image": "https://feelgoodfoodie.net/wp-content/uploads/2017/04/Ground-Beef-Tacos-9.jpg",
+      "tips": "Top with avocado or sour cream for added flavor.",
+      "serving_size": "4 servings",
+      "prep_time": "10 minutes",
+      "cook_time": "15 minutes"
+    },
+    {
+      "id": "5",
+      "title": "Vegetable Stir-Fry",
+      "ingredients": [
+        "mixed vegetables",
+        "soy sauce",
+        "ginger",
+        "garlic",
+        "rice"
+      ],
+      "instructions": "Stir-fry mixed vegetables with ginger and garlic. Serve over cooked rice with soy sauce.",
+      "image": "https://images.themodernproper.com/billowy-turkey/production/posts/VegetableStirFry_9.jpg?w=1200&h=1200&q=60&fm=jpg&fit=crop&dm=1703377301&s=3484d660c4b404c6d23b0c3ec7ac66eb",
+      "tips": "Use seasonal vegetables for the best flavor.",
+      "serving_size": "2 servings",
+      "prep_time": "10 minutes",
+      "cook_time": "10 minutes"
+    },
+    {
+      "id": "6",
+      "title": "Chocolate Chip Cookies",
+      "ingredients": [
+        "flour",
+        "sugar",
+        "butter",
+        "chocolate chips",
+        "eggs"
+      ],
+      "instructions": "Mix ingredients, scoop onto a baking sheet, and bake until golden.",
+      "image": "https://sallysbakingaddiction.com/wp-content/uploads/2013/05/classic-chocolate-chip-cookies.jpg",
+      "tips": "Chill the dough for 30 minutes for thicker cookies.",
+      "serving_size": "12 cookies",
+      "prep_time": "15 minutes",
+      "cook_time": "10 minutes"
+    },
+    {
+      "id": "7",
+      "title": "Margarita Pizza",
+      "ingredients": [
+        "pizza dough",
+        "tomato sauce",
+        "mozzarella cheese",
+        "basil"
+      ],
+      "instructions": "Spread tomato sauce on dough, add mozzarella and basil. Bake until crust is golden.",
+      "image": "https://cdn.shopify.com/s/files/1/0274/9503/9079/files/20220211142754-margherita-9920_5a73220e-4a1a-4d33-b38f-26e98e3cd986.jpg?v=1723650067",
+      "tips": "Use fresh basil for the best flavor.",
+      "serving_size": "2 servings",
+      "prep_time": "15 minutes",
+      "cook_time": "15 minutes"
+    },
+    {
+      "id": "8",
+      "title": "Lemonade",
+      "ingredients": [
+        "lemons",
+        "sugar",
+        "water"
+      ],
+      "instructions": "Mix lemon juice, sugar, and water. Stir until sugar dissolves and serve chilled.",
+      "image": "https://i2.wp.com/lmld.org/wp-content/uploads/2022/04/Lemonade-4.jpg",
+      "tips": "Add mint leaves for a refreshing twist.",
+      "serving_size": "4 servings",
+      "prep_time": "5 minutes",
+      "cook_time": "0 minutes"
+    },
+    {
+      "id": "9",
+      "title": "Pancakes",
+      "ingredients": [
+        "flour",
+        "milk",
+        "eggs",
+        "baking powder",
+        "sugar"
+      ],
+      "instructions": "Mix ingredients until smooth. Pour batter onto a hot griddle and cook until bubbles form. Flip and cook until golden.",
+      "image": "https://www.onceuponachef.com/images/2009/08/pancakes-01.jpg",
+      "tips": "Serve with maple syrup or fresh fruit.",
+      "serving_size": "4 servings",
+      "prep_time": "10 minutes",
+      "cook_time": "15 minutes"
+    },
+    {
+      "id": "10",
+      "title": "Greek Yogurt Parfait",
+      "ingredients": [
+        "Greek yogurt",
+        "granola",
+        "honey",
+        "berries"
+      ],
+      "instructions": "Layer Greek yogurt with granola, honey, and berries in a glass. Serve immediately.",
+      "image": "https://thewoodenskillet.com/wp-content/uploads/2023/05/greek-yogurt-parfait-recipe-1.jpg",
+      "tips": "Use seasonal berries for best flavor.",
+      "serving_size": "2 servings",
+      "prep_time": "5 minutes",
+      "cook_time": "0 minutes"
+    },
+    {
+      "id": "11",
+      "title": "Stuffed Bell Peppers",
+      "ingredients": [
+        "bell peppers",
+        "rice",
+        "ground turkey",
+        "tomato sauce",
+        "cheese"
+      ],
+      "instructions": "Cook rice and mix with ground turkey and tomato sauce. Stuff into halved bell peppers, top with cheese, and bake until peppers are tender.",
+      "image": "https://cdn.loveandlemons.com/wp-content/uploads/2020/08/stuffed-peppers.jpg",
+      "tips": "Add spices to the filling for more flavor.",
+      "serving_size": "4 servings",
+      "prep_time": "20 minutes",
+      "cook_time": "30 minutes"
+    },
+    {
+      "id": "12",
+      "title": "Shrimp Tacos",
+      "ingredients": [
+        "shrimp",
+        "taco shells",
+        "cabbage",
+        "lime",
+        "sour cream"
+      ],
+      "instructions": "Sauté shrimp with spices. Fill taco shells with shrimp, cabbage, and a drizzle of lime and sour cream.",
+      "image": "https://www.onceuponachef.com/images/2012/05/Grilled-Shrimp-Tacos-1-scaled.jpg",
+      "tips": "Add avocado for creaminess.",
+      "serving_size": "2 servings",
+      "prep_time": "10 minutes",
+      "cook_time": "10 minutes"
+    },
+    {
+      "id": "13",
+      "title": "Mushroom Risotto",
+      "ingredients": [
+        "arborio rice",
+        "mushrooms",
+        "onion",
+        "broth",
+        "parmesan cheese"
+      ],
+      "instructions": "Sauté onions and mushrooms, add rice and broth gradually, stirring until creamy. Finish with parmesan cheese.",
+      "image": "https://cdn.loveandlemons.com/wp-content/uploads/2023/01/mushroom-risotto.jpg",
+      "tips": "Stir continuously for a creamier texture.",
+      "serving_size": "4 servings",
+      "prep_time": "10 minutes",
+      "cook_time": "30 minutes"
+    },
+    {
+      "id": "14",
+      "title": "Beef Stroganoff",
+      "ingredients": [
+        "beef",
+        "mushrooms",
+        "onion",
+        "sour cream",
+        "egg noodles"
+      ],
+      "instructions": "Sauté beef and onions, add mushrooms and cook until tender. Stir in sour cream and serve over egg noodles.",
+      "image": "https://www.gimmesomeoven.com/wp-content/uploads/2020/10/Beef-Stroganoff-Recipe-9.jpg",
+      "tips": "Serve with fresh parsley for garnish.",
+      "serving_size": "4 servings",
+      "prep_time": "15 minutes",
+      "cook_time": "30 minutes"
+    },
+    {
+      "id": "15",
+      "title": "Caprese Salad",
+      "ingredients": [
+        "mozzarella",
+        "tomatoes",
+        "basil",
+        "olive oil",
+        "balsamic vinegar"
+      ],
+      "instructions": "Layer mozzarella and tomatoes, sprinkle with basil. Drizzle with olive oil and balsamic vinegar.",
+      "image": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2019/07/Caprese-Salad-main-1.jpg",
+      "tips": "Use heirloom tomatoes for a colorful presentation.",
+      "serving_size": "2 servings",
+      "prep_time": "10 minutes",
+      "cook_time": "0 minutes"
+    },
+    {
+      "id": "16",
+      "title": "Chocolate Mousse",
+      "ingredients": [
+        "dark chocolate",
+        "eggs",
+        "sugar",
+        "heavy cream"
+      ],
+      "instructions": "Melt chocolate, whisk in egg yolks and sugar. Fold in whipped cream and chill before serving.",
+      "image": "https://bakerbynature.com/wp-content/uploads/2023/08/Easy-Chocolate-Mousse-Recipe-1.jpg",
+      "tips": "Use high-quality chocolate for the best flavor.",
+      "serving_size": "4 servings",
+      "prep_time": "15 minutes",
+      "cook_time": "10 minutes"
+    }
+  ],
+  "reasons": [
+    {
+      "id": "1",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cg%20id%3D%22Duotone%22%3E%3Cpath%20fill%3D%22%23fff%22%20d%3D%22M21.5%2017.5l-7-2v-2l1-.5v-2.5l2-1v-2h-2v-7l-2%201-2-1-2%201-2-1v7h-2v2l2%201V13l1%20.5v2l-7%202-1%206h22z%22%2F%3E%3Cpath%20fill%3D%22%23cce7ff%22%20d%3D%22M21.5%2017.5l-2.1-.6%201.1%206.6h2zM7.5%205.5h8v2h-8z%22%2F%3E%3Cpath%20fill%3D%22none%22%20stroke%3D%22%231078ff%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke-miterlimit%3D%2210%22%20d%3D%22M22.5%2023.5l-1-6-7-2v3h-6v5M.5%2023.5l1-6%207-2v-2M10.5%2022.5h1M10.5%2020.5h1%22%2F%3E%3Cpath%20fill%3D%22none%22%20stroke%3D%22%231078ff%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke-miterlimit%3D%2210%22%20d%3D%22M15.5%207.5V13l-4%202-4-2V7.5M7.5%207.5h8M7.5%207.5v-7l2%201%202-1%202%201%202-1v7M7.5%207.5h-2v2l2%201M15.5%207.5h2v2l-2%201M9.5%207.5v-2M13.5%207.5v-2M11.5%207.5v-2M14.5%2015.5v-2M9.5%209.5v.5M13.5%209.5v.5%22%2F%3E%3C%2Fg%3E%3Cpath%20id%3D%22Frames-24px%22%20fill%3D%22none%22%20d%3D%22M0%200h24v24H0z%22%2F%3E%3C%2Fsvg%3E",
+      "title": "Expert Instructors",
+      "info": "Learn from experienced chefs  who provide hands-on training and personalized guidance."
+    },
+    {
+      "id": "2",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Cg%20fill%3D%22%23c2e4f8%22%3E%3Cpath%20d%3D%22m11.946%206.574-4.484%204.462-.747%202.242%202.242-.747%204.484-4.484-1.495-1.473z%22%2F%3E%3Cpath%20d%3D%22m11.938%206.566.94-.94a.422.422%200%200%201%20.599%200l.893.893a.422.422%200%200%201%200%20.598l-.94.94%22%2F%3E%3C%2Fg%3E%3Cpath%20fill%3D%22%2300d1b6%22%20d%3D%22M11.26%209.138H5.696m5.564%202.225H5.696%22%2F%3E%3Cpath%20fill%3D%22none%22%20stroke%3D%22%23249fe6%22%20d%3D%22M11.995%2015.5H1.5v-14h7.017l-.005%202.998h3.482m-3.35-3.165%202.993%203.025%22%2F%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22%23249fe6%22%3E%3Cpath%20d%3D%22m11.946%206.574-4.484%204.462-.747%202.242%202.242-.747%204.484-4.484-1.495-1.473z%22%2F%3E%3Cpath%20d%3D%22m11.938%206.566.94-.94a.422.422%200%200%201%20.599%200l.893.893a.422.422%200%200%201%200%20.598l-.94.94%22%2F%3E%3C%2Fg%3E%3Cpath%20fill%3D%22none%22%20stroke%3D%22%23249fe6%22%20d%3D%22m7.54%2010.821%201.61%201.609m2.345%203.04V12m-8.5-4.5h6m-6%202h4m-4%202h3m-3%202H5%22%2F%3E%3C%2Fsvg%3E",
+      "title": "Comprehensive Curriculum",
+      "info": "Gain a well-rounded education covering various culinary techniques, cuisines, and food safety."
+    },
+    {
+      "id": "3",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2258%22%20height%3D%228%22%20x%3D%223%22%20y%3D%225%22%20fill%3D%22%23fdbd40%22%2F%3E%3Crect%20width%3D%224%22%20height%3D%2216%22%20x%3D%2211%22%20y%3D%2228%22%20fill%3D%22%23aabece%22%2F%3E%3Crect%20width%3D%224%22%20height%3D%2216%22%20x%3D%2230%22%20y%3D%2228%22%20fill%3D%22%23aabece%22%2F%3E%3Crect%20width%3D%226%22%20height%3D%224%22%20x%3D%2248%22%20y%3D%2228%22%20fill%3D%22%23aabece%22%2F%3E%3Crect%20width%3D%226%22%20height%3D%2219%22%20x%3D%2210%22%20y%3D%229%22%20fill%3D%22%23394d5c%22%2F%3E%3Crect%20width%3D%226%22%20height%3D%2219%22%20x%3D%2229%22%20y%3D%229%22%20fill%3D%22%23394d5c%22%2F%3E%3Crect%20width%3D%226%22%20height%3D%2219%22%20x%3D%2248%22%20y%3D%229%22%20fill%3D%22%23394d5c%22%2F%3E%3Cellipse%20cx%3D%2213%22%20cy%3D%2250%22%20fill%3D%22%23cfdfe8%22%20rx%3D%227%22%20ry%3D%229%22%2F%3E%3Cpolygon%20fill%3D%22%23cfdfe8%22%20points%3D%2240%2059%2024%2059%2026%2044%2038%2044%2040%2059%22%2F%3E%3Cpolygon%20fill%3D%22%23cfdfe8%22%20points%3D%2257%2032%2057%2059%2046%2053%2046%2032%2057%2032%22%2F%3E%3Cpath%20fill%3D%22%23f4f4e6%22%20d%3D%22M54%2C53a.99978.99978%2C0%2C0%2C1-1-1V49a1%2C1%2C0%2C0%2C1%2C2%2C0v3A.99979.99979%2C0%2C0%2C1%2C54%2C53Z%22%2F%3E%3Cpath%20d%3D%22M54%2C53a.99979.99979%2C0%2C0%2C0%2C1-1V49a1%2C1%2C0%2C0%2C0-2%2C0v3A.99978.99978%2C0%2C0%2C0%2C54%2C53Z%22%2F%3E%3Cpath%20d%3D%22M2%2C14H9V29h1V40.7363C7.072%2C42.2234%2C5%2C45.8127%2C5%2C50c0%2C5.5137%2C3.58889%2C10%2C8%2C10s8-4.4863%2C8-10c0-4.1873-2.072-7.7766-5-9.2637V29h1V14H28V29h1V43H25.12449l-2.2666%2C17h18.2842l-2.2666-17H35V29h1V14H47V31H46a.99978.99978%2C0%2C0%2C0-1%2C1V53a.999.999%2C0%2C0%2C0%2C.521.8779l11%2C6A.99972.99972%2C0%2C0%2C0%2C58%2C59V32a.99979.99979%2C0%2C0%2C0-1-1H55V14h7V4H2ZM15%2C27H11V10h4Zm4%2C23c0%2C4.4111-2.69141%2C8-6%2C8s-6-3.5889-6-8%2C2.69139-8%2C6-8S19%2C45.5889%2C19%2C50Zm-5-9.9132a5.80377%2C5.80377%2C0%2C0%2C0-2%2C0V29h2ZM34%2C27H30V10h4Zm3.12449%2C18%2C1.7334%2C13H25.14209l1.7334-13ZM33%2C43H31V29h2ZM56%2C33V57.3154l-9-4.9091V33Zm-3-2H49V29h4Zm-4-4V10h4V27ZM4%2C6H60v6H55V8H47v4H36V8H28v4H17V8H9v4H4Z%22%2F%3E%3C%2Fsvg%3E",
+      "title": "State-of-the-Art Facilities",
+      "info": "Train in a modern kitchen equipped with professional-grade tools and equipment."
+    },
+    {
+      "id": "4",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20enable-background%3D%22new%200%200%2064%2064%22%20viewBox%3D%220%200%2064%2064%22%3E%3Cpath%20d%3D%22M50%2C26c6.617%2C0%2C12-5.383%2C12-12S56.617%2C2%2C50%2C2c-4.805%2C0-8.948%2C2.845-10.863%2C6.934l-3.213-1.186C35.962%2C7.502%2C36%2C7.256%2C36%2C7%0A%09c0-2.757-2.243-5-5-5s-5%2C2.243-5%2C5s2.243%2C5%2C5%2C5c1.791%2C0%2C3.353-0.955%2C4.236-2.374l3.208%2C1.184C38.162%2C11.828%2C38%2C12.894%2C38%2C14%0A%09c0%2C1.31%2C0.218%2C2.568%2C0.608%2C3.749L27.61%2C22.41C25.596%2C18.603%2C21.599%2C16%2C17%2C16c-1.49%2C0-2.912%2C0.286-4.23%2C0.784l-2.766-5.813%0A%09C11.209%2C10.057%2C12%2C8.625%2C12%2C7c0-2.757-2.243-5-5-5S2%2C4.243%2C2%2C7s2.243%2C5%2C5%2C5c0.416%2C0%2C0.815-0.066%2C1.202-0.163l2.763%2C5.807%0A%09C7.404%2C19.728%2C5%2C23.584%2C5%2C28c0%2C4.148%2C2.116%2C7.809%2C5.324%2C9.965l-1.829%2C3.288C8.019%2C41.103%2C7.524%2C41%2C7%2C41c-2.757%2C0-5%2C2.243-5%2C5%0A%09s2.243%2C5%2C5%2C5s5-2.243%2C5-5c0-1.514-0.691-2.857-1.757-3.774l1.833-3.295C13.58%2C39.612%2C15.244%2C40%2C17%2C40%0A%09c2.744%2C0%2C5.268-0.936%2C7.292-2.492l3.936%2C4.33C26.232%2C43.982%2C25%2C46.846%2C25%2C50c0%2C0.612%2C0.061%2C1.208%2C0.149%2C1.795l-4.631%2C1.099%0A%09C19.721%2C51.19%2C18.002%2C50%2C16%2C50c-2.757%2C0-5%2C2.243-5%2C5s2.243%2C5%2C5%2C5s5-2.243%2C5-5c0-0.055-0.015-0.107-0.016-0.162l4.622-1.096%0A%09C27.182%2C58.531%2C31.69%2C62%2C37%2C62c6.617%2C0%2C12-5.383%2C12-12c0-2.052-0.519-3.984-1.431-5.674l5.874-3.819C54.351%2C41.427%2C55.609%2C42%2C57%2C42%0A%09c2.757%2C0%2C5-2.243%2C5-5s-2.243-5-5-5s-5%2C2.243-5%2C5c0%2C0.646%2C0.133%2C1.26%2C0.357%2C1.827l-5.888%2C3.828c-1.178-1.515-2.708-2.738-4.469-3.55%0A%09l4.881-13.531C47.877%2C25.843%2C48.92%2C26%2C50%2C26z%20M31%2C10c-1.654%2C0-3-1.346-3-3s1.346-3%2C3-3s3%2C1.346%2C3%2C3S32.654%2C10%2C31%2C10z%20M4%2C7%0A%09c0-1.654%2C1.346-3%2C3-3s3%2C1.346%2C3%2C3s-1.346%2C3-3%2C3S4%2C8.654%2C4%2C7z%20M7%2C49c-1.654%2C0-3-1.346-3-3s1.346-3%2C3-3s3%2C1.346%2C3%2C3S8.654%2C49%2C7%2C49z%0A%09%20M16%2C58c-1.654%2C0-3-1.346-3-3s1.346-3%2C3-3s3%2C1.346%2C3%2C3S17.654%2C58%2C16%2C58z%20M57%2C34c1.654%2C0%2C3%2C1.346%2C3%2C3s-1.346%2C3-3%2C3s-3-1.346-3-3%0A%09S55.346%2C34%2C57%2C34z%20M44.111%2C22.064C44.557%2C19.751%2C46.596%2C18%2C49%2C18h2c2.404%2C0%2C4.443%2C1.751%2C4.889%2C4.064C54.235%2C23.275%2C52.203%2C24%2C50%2C24%0A%09S45.765%2C23.275%2C44.111%2C22.064z%20M50%2C16c-1.654%2C0-3-1.346-3-3s1.346-3%2C3-3s3%2C1.346%2C3%2C3S51.654%2C16%2C50%2C16z%20M50%2C4c5.514%2C0%2C10%2C4.486%2C10%2C10%0A%09c0%2C2.5-0.929%2C4.784-2.452%2C6.539c-0.701-1.845-2.162-3.318-3.982-4.045C54.451%2C15.592%2C55%2C14.36%2C55%2C13c0-2.757-2.243-5-5-5%0A%09s-5%2C2.243-5%2C5c0%2C1.36%2C0.549%2C2.592%2C1.434%2C3.494c-1.82%2C0.727-3.281%2C2.2-3.982%2C4.045C40.929%2C18.784%2C40%2C16.5%2C40%2C14%0A%09C40%2C8.486%2C44.486%2C4%2C50%2C4z%20M7%2C28c0-5.514%2C4.486-10%2C10-10s10%2C4.486%2C10%2C10c0%2C2.508-0.935%2C4.798-2.466%2C6.555%0A%09c-0.698-1.852-2.162-3.332-3.987-4.061C21.431%2C29.592%2C21.98%2C28.36%2C21.98%2C27c0-2.757-2.243-5-5-5s-5%2C2.243-5%2C5%0A%09c0%2C1.36%2C0.549%2C2.592%2C1.434%2C3.494c-1.815%2C0.724-3.274%2C2.191-3.977%2C4.029C7.923%2C32.77%2C7%2C30.493%2C7%2C28z%20M13.98%2C27c0-1.654%2C1.346-3%2C3-3%0A%09s3%2C1.346%2C3%2C3s-1.346%2C3-3%2C3S13.98%2C28.654%2C13.98%2C27z%20M11.094%2C36.051C11.545%2C33.744%2C13.581%2C32%2C15.98%2C32h2%0A%09c2.408%2C0%2C4.451%2C1.757%2C4.891%2C4.077C21.22%2C37.281%2C19.195%2C38%2C17%2C38C14.789%2C38%2C12.751%2C37.27%2C11.094%2C36.051z%20M31.094%2C58.051%0A%09C31.545%2C55.744%2C33.581%2C54%2C35.98%2C54h2c2.408%2C0%2C4.451%2C1.757%2C4.891%2C4.077C41.22%2C59.281%2C39.195%2C60%2C37%2C60%0A%09C34.789%2C60%2C32.751%2C59.27%2C31.094%2C58.051z%20M36.98%2C52c-1.654%2C0-3-1.346-3-3s1.346-3%2C3-3s3%2C1.346%2C3%2C3S38.634%2C52%2C36.98%2C52z%20M47%2C50%0A%09c0%2C2.508-0.935%2C4.798-2.466%2C6.555c-0.698-1.852-2.162-3.332-3.987-4.061C41.431%2C51.592%2C41.98%2C50.36%2C41.98%2C49c0-2.757-2.243-5-5-5%0A%09s-5%2C2.243-5%2C5c0%2C1.36%2C0.549%2C2.592%2C1.434%2C3.494c-1.815%2C0.724-3.274%2C2.191-3.977%2C4.029C27.923%2C54.77%2C27%2C52.493%2C27%2C50%0A%09c0-5.514%2C4.486-10%2C10-10S47%2C44.486%2C47%2C50z%20M40.119%2C38.426C39.123%2C38.157%2C38.08%2C38%2C37%2C38c-2.744%2C0-5.268%2C0.936-7.292%2C2.492%0A%09l-3.936-4.33C27.768%2C34.018%2C29%2C31.154%2C29%2C28c0-1.31-0.218-2.568-0.608-3.749L39.39%2C19.59c1.232%2C2.329%2C3.209%2C4.198%2C5.611%2C5.305%0A%09L40.119%2C38.426z%22%2F%3E%3C%2Fsvg%3E",
+      "title": "Networking Opportunities",
+      "info": "Connect with industry professionals and fellow culinary enthusiasts to build valuable relationships in the culinary world."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "1",
+      "title": "Culinary Fundamentals",
+      "date": "January 10 - January 24, 2024",
+      "description": "An introduction to basic cooking techniques, knife skills, and kitchen safety. Students will learn essential skills that form the foundation of all cooking.",
+      "image": "https://madisoncollege.edu/files/media-image/2023-07/culinary-fundamentals-1200x630.jpg",
+      "duration": "2 weeks",
+      "level": "Beginner",
+      "instructor": "Chef John Smith",
+      "explanation": "This course is designed for those who are new to cooking and want to build a solid foundation. It covers basic techniques that every cook should know."
+    },
+    {
+      "id": "2",
+      "title": "World Cuisines",
+      "date": "February 7 - February 21, 2024",
+      "description": "A culinary journey through various cultures, exploring Italian, Mexican, Asian, and more. Students will learn traditional recipes and cooking methods from different parts of the world.",
+      "image": "https://static.vecteezy.com/system/resources/previews/007/681/613/original/world-cuisine-dishes-set-vector.jpg",
+      "duration": "2 weeks",
+      "level": "Intermediate",
+      "instructor": "Chef Maria Gonzalez",
+      "explanation": "This course allows students to explore global culinary traditions, providing a broader understanding of cooking techniques and flavors."
+    },
+    {
+      "id": "3",
+      "title": "Baking and Pastry Arts",
+      "date": "March 5 - March 19, 2024",
+      "description": "Focused on the art of baking, this course covers bread-making, pastry techniques, and dessert creation. Students will master the skills needed to create delicious baked goods.",
+      "image": "https://www.macomb.edu/resources/programs/images/pastry-arts.jpg",
+      "duration": "2 weeks",
+      "level": "Intermediate",
+      "instructor": "Chef Emily Brown",
+      "explanation": "Students will delve into the science and art of baking, learning how to create a variety of breads, pastries, and desserts."
+    },
+    {
+      "id": "4",
+      "title": "Healthy Cooking",
+      "date": "April 2 - April 16, 2024",
+      "description": "Emphasizing balanced nutrition, this course teaches students how to prepare healthy meals using fresh ingredients. It covers meal planning and cooking methods that promote wellness.",
+      "image": "https://www.mdanderson.org/images/publications/focused-on-health/2019/web_healthy_cooking_1376x774.png.resize.702.404.jpg",
+      "duration": "2 weeks",
+      "level": "Beginner",
+      "instructor": "Chef Sarah Johnson",
+      "explanation": "This course focuses on creating nutritious meals that are both delicious and easy to prepare, ideal for anyone looking to improve their eating habits."
+    },
+    {
+      "id": "5",
+      "title": "Vegetarian Cooking",
+      "date": "July 2 - July 16, 2024",
+      "description": "This course focuses on creating delicious and diverse vegetarian dishes. Students will explore plant-based ingredients and cooking methods that enhance flavor and nutrition.",
+      "image": "https://www.yeastextract.info/wp-content/uploads/2018/09/Vegetarian-and-vegan-cuisine.jpg",
+      "duration": "2 weeks",
+      "level": "Intermediate",
+      "instructor": "Chef Alex Lee",
+      "explanation": "Students will learn about the versatility of vegetarian cooking, discovering how to create satisfying meals that highlight seasonal produce."
+    },
+    {
+      "id": "6",
+      "title": "Wine Pairing and Sommelier Basics",
+      "date": "August 27 - September 10, 2024",
+      "description": "An introduction to the world of wine, this course covers the fundamentals of wine tasting and pairing wines with food. Students will learn how to enhance dining experiences through proper wine selection.",
+      "image": "https://images.squarespace-cdn.com/content/v1/571651ce59827e39cda9741f/1497487891192-P203BMTLS2GQA0ORT8F4/image-asset.jpeg",
+      "duration": "2 weeks",
+      "level": "Beginner",
+      "instructor": "Sommelier David White",
+      "explanation": "This course provides an overview of wine basics, including tasting techniques and how to select the perfect wine for various dishes."
+    }
+  ],
+  "posts": [
+    {
+      "id": "9f70",
+      "firstName": "sad",
+      "lastName": "Sulaimanov",
+      "phoneNumber": "+996551150108",
+      "email": "baibo@gmail.com",
+      "address": {
+        "country": {
+          "value": "kyrgyzstan",
+          "label": "Kyrgyzstan"
+        }
+      }
+    },
+    {
+      "id": "8d5a",
+      "firstName": "Azamat",
+      "lastName": "Ramankulov",
+      "phoneNumber": "+996557013340",
+      "email": "azuka0303@gmail.com",
+      "address": {
+        "country": {
+          "value": "russia",
+          "label": "Russia"
+        }
+      }
+    },
+    {
+      "id": "4782",
+      "firstName": "Syrgak",
+      "lastName": "Sulaimanov",
+      "phoneNumber": "+6665654565",
+      "email": "baibosunova03@bk.ru",
+      "address": {
+        "country": {
+          "value": "russia",
+          "label": "Russia"
+        }
+      }
+    },
+    {
+      "id": "0a7c",
+      "firstName": "Syrgak",
+      "lastName": "Sulaimanov",
+      "phoneNumber": "+996551150108",
+      "email": "delcatessen@gmail.com",
+      "address": {
+        "country": {
+          "value": "kyrgyzstan",
+          "label": "Kyrgyzstan"
+        }
+      }
+    }
+  ]
+}

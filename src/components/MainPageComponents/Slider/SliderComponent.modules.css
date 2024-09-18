@@ -1,0 +1,53 @@
+.slider-wrapper{
+    margin-top:275px;
+    width:100vw;
+    height:800px;
+    background:url('../../../pictures/slider__bg.jpg') center center/cover no-repeat ;
+}
+.slide-wrapper__title{
+    padding-top: 62px;
+    color:white;
+    font-size: var(--subtitle-size);
+    text-align: center;
+    font-family: Georgia;
+    position:relative;
+}
+.slide-wrapper__title::before{
+    content:"";
+    width:40px;
+    height:3px;
+    background-color:white;
+    position:absolute;
+    left:512px;
+    top:94px;
+}
+.slide-wrapper__title::after {
+    content: "";
+    width:40px;
+    height:3px;
+    background-color:white;
+    position:absolute;
+    right:512px;
+    top:94px;
+}
+.slider-slide{
+    color:white;
+    font-size: 25px;
+    font-family: var(--text-font-family);
+    font-weight: bold;
+    height:500px;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+.slider-slide img{
+    margin-top: 100px;
+    width:150px;
+    height:150px;
+}
+.swiper-button-next{
+    color:navajowhite;
+}
+.swiper-button-prev{
+    color:navajowhite;
+}

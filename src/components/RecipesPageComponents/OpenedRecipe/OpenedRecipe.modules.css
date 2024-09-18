@@ -1,0 +1,89 @@
+.opened-recipe__title{
+    text-align: center;
+    font-size: 55px;
+    color: #352f5b;
+    text-align: center;
+    font-family: "Kanit", sans-serif;
+}
+.opened-recipe__content{
+    margin-top: 100px;
+}
+.opened-recipe__ingredients{
+    padding-bottom: 20px;
+    font-family: Ubuntu, sans-serif;
+    font-size: 35px;
+    text-align: left;
+    font-weight: 500;
+    color: #88774f;
+    border-bottom: 1px solid yellowgreen;
+}
+.opened-recipe__ingredients__list{
+    margin-top: 20px;
+    padding-left: 20px;
+    font-family: "Noto sa", sans-serif;
+    font-size: 35px;
+    text-align: left;
+    font-weight: 500;
+    color:dimgrey;
+    text-transform:capitalize;
+}
+.opened-recipe__content__info div{
+    margin-top: 50px;
+    padding-bottom: 20px;
+    font-family: Ubuntu, sans-serif;
+    font-size: 35px;
+    text-align: left;
+    font-weight: 500;
+    color: #88774f;
+    border-bottom: 1px solid yellowgreen;
+}
+.opened-recipe__content__info{
+    font-family: "Noto Sa", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color:dimgrey;
+}
+.opened-recipe__content__extra div{
+    margin-top: 50px;
+    padding-bottom: 20px;
+    font-family: Ubuntu, sans-serif;
+    font-size: 35px;
+    text-align: left;
+    font-weight: 500;
+    color: #88774f;
+    border-bottom: 1px solid yellowgreen;
+}
+.opened-recipe__content__extra {
+    font-family: "Noto Sa", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color:dimgrey;
+}
+.opened-recipe__content__visual{
+    margin-top: 100px;
+    padding-top: 50px;
+    height:450px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+.content__visual__card{
+    width:350px;
+    height:350px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 90px;
+    font-family: Ubuntu,sans-serif;
+    font-size: 30px;
+    color:#88774f;
+    font-weight: bold;
+    border-radius: 10px;
+    border:2px solid rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.content__visual__card:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.content__visual__img img{
+    width: 100px;
+}

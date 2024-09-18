@@ -1,0 +1,14 @@
+:root{
+    --title-size:40px;
+    --subtitle-size:27px;
+    --text-size:27px;
+    --title-font-family: "Montserrat";
+    --menu-font-family:"Mate SC";
+    --subtitle-font-family: "Ubuntu";
+    --text-font-family:"Gilda Display";
+}
+
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}

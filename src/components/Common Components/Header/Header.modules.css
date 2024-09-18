@@ -1,0 +1,14 @@
+.container{
+    position: relative;
+}
+.header-title{
+    font-size: var(--title-size);
+    font-family: "Georgia";
+    color:white;
+    text-align: center;
+    position:absolute;
+    top:-337px;
+    left:0;
+    right:10px;
+    z-index:1;
+}

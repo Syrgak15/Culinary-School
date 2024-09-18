@@ -1,0 +1,40 @@
+.navLink{
+    width:600px;
+    position:relative;
+}
+.navLink-logo{
+    width:600px;
+}
+.navLink:after{
+    content:"";
+    display:block;
+    position:absolute;
+    left:1px;
+    width:0;
+    height:2px;
+    background-color: darkslateblue;
+    transition:0.3s;
+}
+.navLink:hover:nth-child(2):after{
+    width:90px;
+}
+.navLink:hover:nth-child(3):after{
+    width:87px;
+}
+.navLink:hover:nth-child(4):after{
+    width:98px;
+}
+.navLink img{
+    width: 185px;
+}
+.modal-title{
+    color:#352f5b;
+    font-family: var(--title-font-family);
+    padding-bottom: 15px;
+}
+.modal-info p{
+    font-family: var(--subtitle-font-family);
+    color:#1d2a46;
+    font-size: 18px;
+    line-height: 25px;
+}

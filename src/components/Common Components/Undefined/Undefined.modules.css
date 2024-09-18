@@ -1,0 +1,15 @@
+.undefined-page{
+    width:1440px;
+    height:700px;
+    text-align:center;
+}
+.undefined-page__img img{
+    width:200px;
+    height:200px;
+}
+.undefined-page__descr{
+    font-family: Ubuntu;
+    font-size: 35px;
+    color:#003349;
+    font-weight: bold;
+}

@@ -1,0 +1,32 @@
+.change-language{
+    width:50px;
+    position:relative;
+}
+.button-english{
+    width:30px;
+    height:35px;
+    background:transparent;
+    border:none;
+    position:absolute;
+    top:-13px;
+    right:-40px;
+    cursor:pointer;
+}
+.button-russian{
+    width:30px;
+    height:35px;
+    background:transparent;
+    border:none;
+    position:absolute;
+    top:-14px;
+    right:-90px;
+    cursor:pointer;
+}
+.button-russian img{
+    width: 100%;
+    height: 100%;
+}
+.button-english img{
+    width: 100%;
+    height: 100%;
+}

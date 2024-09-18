@@ -1,0 +1,35 @@
+.reason-title{
+    font-family: var(--title-font-family);
+    font-size: var(--subtitle-size);
+    color: #352f5b;
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.reason-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:30px;
+}
+.reason-wrapper__card {
+    width: 245px;
+    height: 240px;
+    text-align: center;
+}
+.reason__card__img{
+    max-width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+.reason__card__title{
+    font-family: var(--subtitle-font-family);
+    font-size: 25px;
+    margin-bottom: 10px;
+    color:#1d2a46;
+}
+.reason__card__info{
+    line-height: 1.6;
+    font-size: 20px;
+    font-family: var(--text-font-family);
+}
