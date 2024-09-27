@@ -1,9 +1,29 @@
+.navigation{
+    width: 100% !important;
+    background:var(--background);
+
+}
+
+.navigation-container{
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:93px;
+}
+
 .navLink{
     width:600px;
     position:relative;
 }
 .navLink-logo{
     width:600px;
+    text-decoration: none;
+    color:var(--text-primary);
+    padding: 10px 25px 10px 0px;
+    font-family: Inconsolata;
+    font-size: var(--subtitle-size);
 }
 .navLink:after{
     content:"";
@@ -12,7 +32,7 @@
     left:1px;
     width:0;
     height:2px;
-    background-color: darkslateblue;
+    background-color: var(--border);
     transition:0.3s;
 }
 .navLink:hover:nth-child(2):after{

@@ -3,23 +3,17 @@
   margin: 0;
   box-sizing: border-box;
 }
-.App .container{
-  width:1400px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap:100px;
-}
 .App .navLink{
   font-size: 27px;
   text-decoration: none;
-  color:#1d2a46;
+  color:var(--text-primary);
   font-family: var(--menu-font-family);
   font-weight: 300;
 }
 .App .btn{
   width: 275px;
   height: 45px;
+  background: var(--modal-color);
+  color:cornflowerblue;
 }
 

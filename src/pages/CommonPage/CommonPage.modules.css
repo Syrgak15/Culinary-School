@@ -6,8 +6,23 @@
     --menu-font-family:"Mate SC";
     --subtitle-font-family: "Ubuntu";
     --text-font-family:"Gilda Display";
+    --background:#ffffff;
+    --text-primary:#352f5b;
+    --text-secondary:#003349;
+    --text-color:#003349;
+    --modal-color:#fff;
+    --accent:#8e05c2;
+    --border:deepskyblue;
 }
-
+[data-theme='dark']{
+    --background:rgba(0,0,0,0.9);
+    --text-primary:#fff;
+    --text-secondary:#fff;
+    --text-color:#6d989d;
+    --accent:#8e05c2;
+    --modal-color:#fff;
+    --border:blue;
+}
 .container{
     width: 1400px;
     margin: 0 auto;

@@ -1,10 +1,13 @@
+.reason{
+    background:var(--background);
+    height:600px;
+}
 .reason-title{
     font-family: var(--title-font-family);
     font-size: var(--subtitle-size);
-    color: #352f5b;
-    margin-top: 100px;
+    color: var(--text-primary);
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 25px;
 }
 .reason-wrapper{
     display: flex;
@@ -26,10 +29,11 @@
     font-family: var(--subtitle-font-family);
     font-size: 25px;
     margin-bottom: 10px;
-    color:#1d2a46;
+    color:var(--text-secondary);
 }
 .reason__card__info{
     line-height: 1.6;
     font-size: 20px;
     font-family: var(--text-font-family);
+    color: var(--text-color );
 }

@@ -18,7 +18,7 @@ export const getReasons = createAsyncThunk(
     'getReasons',
     async function(info,{dispatch}){
         try{
-            const response = await fetch('http://localhost:8001/reasons')
+            const response = await fetch('http://localhost:8000/reasons')
             const data = await response.json()
             dispatch(getReason(data))
         }

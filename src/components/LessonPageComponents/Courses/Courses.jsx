@@ -22,7 +22,6 @@ const Courses = ({title}) => {
         date: t(lesson.date)
 
     }));
-    console.log(translatedLessons);
     return (
         <div className='courses'>
             <div className="container">

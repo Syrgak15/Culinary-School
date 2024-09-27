@@ -10,6 +10,7 @@ import {useDispatch, useSelector} from "react-redux";
 import {getReasons} from "../../store/MainPageSlice";
 import {useTranslation} from "react-i18next";
 import i18next from "i18next";
+import useLocalStorage from "use-local-storage";
 
 const MainPage = () => {
     const reasons = useSelector(state=>state.mainReducer.reasons);
@@ -41,7 +42,8 @@ const MainPage = () => {
             />
             <Reason
                 title={t("mainPage:reason-title")}
-                reasons={reasons}/>
+                reasons={reasons}
+            />
             <SliderComponent title={t("mainPage:slider-title")}/>
             <Footer/>
         </div>

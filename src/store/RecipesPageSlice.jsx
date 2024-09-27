@@ -4,7 +4,7 @@ export const getRecipeList = createAsyncThunk(
     'getRecipesList',
     async function (info,{dispatch}){
         try{
-            const response = await fetch('http://localhost:8001/recipes')
+            const response = await fetch('http://localhost:8000/recipes')
             const data = await response.json();
             dispatch(getRecipes(data))
         }
@@ -17,7 +17,7 @@ export const getClickedRecipe = createAsyncThunk(
     'getClickedRecipe',
     async function(id,{dispatch}){
         try{
-            const response = await fetch(`http://localhost:8001/recipes/${id}`)
+            const response = await fetch(`http://localhost:8000/recipes/${id}`)
             const data = await response.json();
             dispatch(getOneRecipe(data))
         }

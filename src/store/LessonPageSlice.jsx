@@ -4,7 +4,7 @@ export const getLessons = createAsyncThunk(
     'getLessons',
     async function (info,{dispatch}){
         try{
-            const response = await fetch('http://localhost:8001/lessons')
+            const response = await fetch('http://localhost:8000/lessons')
             const data = await response.json()
             dispatch(getLesson(data))
         }
@@ -18,7 +18,7 @@ export const getClickedLesson = createAsyncThunk(
     'getClickedLesson',
     async function(id,{dispatch}){
         try{
-            const response = await fetch(`http://localhost:8001/lessons/${id}`)
+            const response = await fetch(`http://localhost:8000/lessons/${id}`)
             const data = await response.json()
             dispatch(getSingleLesson(data))
         }

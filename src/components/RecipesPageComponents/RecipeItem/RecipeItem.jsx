@@ -2,13 +2,14 @@ import React from 'react';
 import styles from './RecipeItem.modules.css'
 import {useDispatch} from "react-redux";
 import {getClickedRecipe} from "../../../store/RecipesPageSlice";
-import {NavLink} from "react-router-dom";
+import {NavLink, useParams} from "react-router-dom";
 import {Button} from "@mui/material";
 
 const RecipeItem = ({recipeInfo}) => {
+    const{id}=useParams()
     const dispatch = useDispatch();
     const getOneRecipe = (id)=>{
-        dispatch(getClickedRecipe(recipeInfo.id));
+        dispatch(getClickedRecipe(recipeInfo.slug));
         console.log(recipeInfo.id)
     }
     const handleScrollToTop = () => {

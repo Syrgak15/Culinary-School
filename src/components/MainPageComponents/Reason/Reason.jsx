@@ -2,8 +2,10 @@ import React from 'react';
 import styles from './Reason.modules.css'
 import {useTranslation} from "react-i18next";
 import i18next from "../../../i18next";
+import useLocalStorage from "use-local-storage";
 
 const Reason = ({reasons,title}) => {
+
     const {t,i18n} = useTranslation();
     return (
         <div className='reason'>

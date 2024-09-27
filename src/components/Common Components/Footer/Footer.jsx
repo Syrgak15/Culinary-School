@@ -21,8 +21,8 @@ const Footer = () => {
                 <div className="footer-block__img">
                     <NavLink
                         onClick={handleScrollToTop}
-                        className='footer-block__img' to='/' element={<MainPage/>}>
-                        <img src={logo} alt="logo"/>
+                        className='footer-block__logo' to='/' element={<MainPage/>}>
+                        <span>Epicurean Arts</span>
                     </NavLink>
                 </div>
                 <div className="footer-wrapper">

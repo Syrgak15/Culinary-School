@@ -1,8 +1,7 @@
 .slider-wrapper{
-    margin-top:275px;
     width:100vw;
     height:800px;
-    background:url('../../../pictures/slider__bg.jpg') center center/cover no-repeat ;
+    background:url('../../../pictures/slider__bg.jpg') center center/cover no-repeat !important;
 }
 .slide-wrapper__title{
     padding-top: 62px;

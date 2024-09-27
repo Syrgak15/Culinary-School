@@ -14,6 +14,8 @@ import {useTranslation} from "react-i18next";
 import ChangeLanguage from "../ChangeLanguage/ChangeLanguage";
 import TextField from "@mui/material/TextField";
 import {useDispatch, useSelector} from "react-redux";
+import useLocalStorage from "use-local-storage";
+import ToogleTheme from "../ToggleTheme/ToggleTheme";
 
 const Navigation = ({lesson,button,location,recipes}) => {
     const style = {
@@ -35,10 +37,10 @@ const Navigation = ({lesson,button,location,recipes}) => {
         const handleOpen = () => setOpen(true);
         const handleClose = () => setOpen(false);
     return (
-        <div>
-            <div className="container">
-                <NavLink className=' navLink-logo' to='/' element={<MainPage/>}>
-                    <img src={logo} alt="logo"/>
+        <div className='navigation'>
+            <div className="navigation-container">
+                <NavLink className='navLink-logo' to='/' element={<MainPage/>}>
+                    <span>Epicurean Arts</span>
                 </NavLink>
                 <NavLink className='navLink' to='/lesson' element={<LessonPage/>}>{lesson}</NavLink>
                 <NavLink className='navLink' to='/recipes' element={<RecipesPage/>}>{recipes}</NavLink>
@@ -52,7 +54,8 @@ const Navigation = ({lesson,button,location,recipes}) => {
                     aria-describedby="modal-modal-description"
                 >
                     <Box sx={style}>
-                        <Typography sx={{fontStyle:'oblique'}} className='modal-title' id="modal-modal-title" variant="h4" component="h2">
+                        <Typography sx={{fontStyle: 'oblique'}} className='modal-title' id="modal-modal-title"
+                                    variant="h4" component="h2">
                             The History of EACC
                         </Typography>
                         <Typography className='modal-info' component={'p'}>
@@ -81,6 +84,7 @@ const Navigation = ({lesson,button,location,recipes}) => {
                         </Typography>
                     </Box>
                 </Modal>
+                <ToogleTheme/>
             </div>
 
         </div>

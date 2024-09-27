@@ -1,13 +1,14 @@
 import React, {useEffect} from 'react';
 import {Button} from "@mui/material";
 import styles from './CourseCard.modules.css'
-import {NavLink} from "react-router-dom";
+import {NavLink, useParams} from "react-router-dom";
 import {useDispatch, useSelector} from "react-redux";
 import {getClickedLesson} from "../../../store/LessonPageSlice";
 import {useTranslation} from "react-i18next";
 
 
 const CourseCard = ({lessons}) => {
+    const {id}=useParams()
     const { t } = useTranslation();
     const singleLesson = useSelector(state => state.lessonReducer.lesson)
     const handleScrollToTop = () => {

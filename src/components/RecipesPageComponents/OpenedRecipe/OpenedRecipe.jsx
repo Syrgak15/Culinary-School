@@ -10,7 +10,7 @@ const OpenedRecipe = () => {
     const clickedRecipe = useSelector(state => state.recipeReducer.selectedRecipe)
     useEffect(() => {
         dispatch(getClickedRecipe(id));
-    }, []);
+    }, [id]);
     return (
         <>
             <Header title={clickedRecipe.title} backgroundImage={clickedRecipe.image}/>
