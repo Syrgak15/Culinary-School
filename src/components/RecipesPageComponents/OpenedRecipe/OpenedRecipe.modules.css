@@ -1,7 +1,13 @@
+.opened-recipe{
+    background: var(--background);
+    border-bottom: 1px solid grey;
+}
+
 .opened-recipe__title{
+    padding-top: 35px;
     text-align: center;
     font-size: 55px;
-    color: #352f5b;
+    color: var(--text-primary);
     text-align: center;
     font-family: "Kanit", sans-serif;
 }
@@ -15,7 +21,7 @@
     text-align: left;
     font-weight: 500;
     color: #88774f;
-    border-bottom: 1px solid yellowgreen;
+    border-bottom: 1px solid var(--border);
 }
 .opened-recipe__ingredients__list{
     margin-top: 20px;
@@ -35,7 +41,7 @@
     text-align: left;
     font-weight: 500;
     color: #88774f;
-    border-bottom: 1px solid yellowgreen;
+    border-bottom: 1px solid var(--border);
 }
 .opened-recipe__content__info{
     font-family: "Noto Sa", sans-serif;
@@ -51,7 +57,7 @@
     text-align: left;
     font-weight: 500;
     color: #88774f;
-    border-bottom: 1px solid yellowgreen;
+    border-bottom: 1px solid var(--border);
 }
 .opened-recipe__content__extra {
     font-family: "Noto Sa", sans-serif;
@@ -77,7 +83,7 @@
     color:#88774f;
     font-weight: bold;
     border-radius: 10px;
-    border:2px solid rgba(0,0,0,0.2);
+    border:2px solid var(--border);
     transition: 0.3s;
 }
 .content__visual__card:hover{

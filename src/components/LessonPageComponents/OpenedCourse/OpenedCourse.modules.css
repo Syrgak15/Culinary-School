@@ -1,5 +1,6 @@
 .opened-course{
-    border-bottom: 1px solid grey   ;
+    border-bottom: 1px solid grey;
+    background: var(--background);
 }
 
 .course-container{
@@ -9,14 +10,14 @@
     margin-top: 50px;
     margin-bottom: 60px;
     font-size: 55px;
-    color:#352f5b;
+    color:var(--text-primary);
     text-align: center;
     font-family: "Kanit",sans-serif;
 }
 .opened-course__divider{
     width:400px;
     height:1px;
-    background-color: #003349;
+    background-color: var(--text-secondary);
     margin: 0 auto;
     margin-bottom: 50px;
 }
@@ -46,7 +47,7 @@
     color:#88774f;
     font-weight: bold;
     border-radius: 10px;
-    border:2px solid rgba(0,0,0,0.2);
+    border:2px solid var(--border);
     transition: 0.3s;
 }
 .opened-course__description .opened-course__card:hover{

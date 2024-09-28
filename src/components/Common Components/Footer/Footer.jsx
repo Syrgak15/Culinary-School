@@ -22,7 +22,7 @@ const Footer = () => {
                     <NavLink
                         onClick={handleScrollToTop}
                         className='footer-block__logo' to='/' element={<MainPage/>}>
-                        <span>Epicurean Arts</span>
+                        Epicurean Arts
                     </NavLink>
                 </div>
                 <div className="footer-wrapper">

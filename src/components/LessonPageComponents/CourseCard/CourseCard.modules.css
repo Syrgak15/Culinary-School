@@ -1,14 +1,14 @@
 .courses{
-    margin-top: 250px;
     height:2200px;
     border-bottom:1px solid grey;
+    background:var(--background);
 }
 .courses-title{
     font-family: Georgia;
     font-size: 25px;
     font-weight: bold;
-    color: #352f5b;
-    margin-top: 100px;
+    color: var(--text-primary);
+    padding-top: 95px;
 }
 .courses-wrapper{
     width:100%;
@@ -41,7 +41,7 @@
 .course-wrapper__card__title{
     font-size: 32px;
     font-family: "Noto sa", sans-serif;
-    color:#003349;
+    color:var(--text-color);
     padding-top: 15px;
     padding-left: 30px;
     margin: 0 auto;
@@ -56,17 +56,18 @@
     font-size: 25px;
     font-weight: bold;
     font-family: "Noto sa", sans-serif;
-    color:#2E9AFF;
+    color:var(--accent);
     padding-bottom: 15px;
 }
 .course-wrapper__card__info p{
     font-size: 23px;
     font-family: 'Noto sa',sans-serif;
-    color: #003349;
+    color: var(--text-secondary);
     line-height: 25px;
 }
 .courses-wrapper__card .btn{
     width: 141px;
     margin-top: 25px;
-    color:grey;
+    color:var(--accent);
+    background:var(--background);
 }

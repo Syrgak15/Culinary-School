@@ -4,6 +4,7 @@ import {useParams} from "react-router-dom";
 import {useDispatch, useSelector} from "react-redux";
 import {getClickedRecipe} from "../../../store/RecipesPageSlice";
 import Header from "../../Common Components/Header/Header";
+import Footer from "../../Common Components/Footer/Footer";
 const OpenedRecipe = () => {
     const {id} = useParams();
     const dispatch = useDispatch();
@@ -67,6 +68,7 @@ const OpenedRecipe = () => {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </>
     );
 };

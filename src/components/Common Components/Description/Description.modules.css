@@ -1,6 +1,6 @@
 .description{
     height: 700px;
-    background: var(--background);
+    background-color: var(--background);
 }
 .container{
     width: 1200px;

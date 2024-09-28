@@ -11,17 +11,26 @@
     --text-secondary:#003349;
     --text-color:#003349;
     --modal-color:#fff;
-    --accent:#8e05c2;
+    --accent:#5f55f6;
+    --instruction-color:#228f3c;
+    --ingredients-color:#9a5454;
     --border:deepskyblue;
+    --input-border:grey;
+}
+[data-theme] * {
+    transition: all .4s;
 }
 [data-theme='dark']{
     --background:rgba(0,0,0,0.9);
     --text-primary:#fff;
     --text-secondary:#fff;
     --text-color:#6d989d;
-    --accent:#8e05c2;
+    --accent:#2E9AFF;
+    --instruction-color:#6886bb;
+    --ingredients-color:#1ea8048a;
     --modal-color:#fff;
-    --border:blue;
+    --border:#4a4af3;
+    --input-border:#fff;
 }
 .container{
     width: 1400px;

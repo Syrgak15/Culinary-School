@@ -2,14 +2,14 @@
     width: 100%;
     height:3100px;
     border-bottom: 1px solid grey;
-
+    background: var(--background);
 }
 .recipes-page__title{
     font-family: Georgia;
     font-size: 25px;
     font-weight: bold;
-    color: #352f5b;
-    margin-top: 100px;
+    color: var(--text-primary);
+    padding-top: 50px;
 }
 .recipes-page__form {
     position: relative;

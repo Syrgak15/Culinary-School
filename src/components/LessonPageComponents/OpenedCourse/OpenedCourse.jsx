@@ -16,7 +16,6 @@ const OpenedCourse = () => {
         dispatch(getClickedLesson(id));
     }, [id]);
     return (
-        <>
             <div className='opened-course'>
                 <Header title={course.title} backgroundImage={openedCourseBg}/>
                 <div className="container course-container">
@@ -57,9 +56,8 @@ const OpenedCourse = () => {
                         </div>
                     </div>
                 </div>
+                <Footer/>
             </div>
-            <Footer/>
-        </>
 
     );
 };

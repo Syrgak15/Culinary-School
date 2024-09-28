@@ -40,7 +40,7 @@ const Navigation = ({lesson,button,location,recipes}) => {
         <div className='navigation'>
             <div className="navigation-container">
                 <NavLink className='navLink-logo' to='/' element={<MainPage/>}>
-                    <span>Epicurean Arts</span>
+                    Epicurean Arts
                 </NavLink>
                 <NavLink className='navLink' to='/lesson' element={<LessonPage/>}>{lesson}</NavLink>
                 <NavLink className='navLink' to='/recipes' element={<RecipesPage/>}>{recipes}</NavLink>

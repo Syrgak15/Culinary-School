@@ -1,0 +1,5 @@
+.theme-toggle i{
+    color: var(--text-primary);
+    position: absolute;
+    top: 26px;
+}
