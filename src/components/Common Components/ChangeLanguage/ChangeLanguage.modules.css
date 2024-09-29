@@ -30,3 +30,12 @@
     width: 100%;
     height: 100%;
 }
+
+@media (max-width: 1440px){
+    .button-english{
+        right:15px;
+    }
+    .button-russian{
+        right:-30px;
+    }
+}

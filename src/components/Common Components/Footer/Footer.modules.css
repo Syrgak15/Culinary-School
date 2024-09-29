@@ -59,3 +59,10 @@
     font-family: var(--text-font-family);
     color:var(--text-secondary);
 }
+
+
+@media (max-width: 1440px){
+    .footer .container{
+        padding: 0 30px;
+    }
+}

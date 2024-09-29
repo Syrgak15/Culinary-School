@@ -47,6 +47,7 @@ const Navigation = ({lesson,button,location,recipes}) => {
                 <NavLink className='navLink' to='/location' element={<LocationPage/>}>{location}</NavLink>
                 <Button onClick={handleOpen} variant="outlined" color='inherit' className='btn'>{button}</Button>
                 <ChangeLanguage/>
+                <ToogleTheme/>
                 <Modal
                     open={open}
                     onClose={handleClose}
@@ -84,11 +85,9 @@ const Navigation = ({lesson,button,location,recipes}) => {
                         </Typography>
                     </Box>
                 </Modal>
-                <ToogleTheme/>
             </div>
-
         </div>
-    );
+);
 };
 
 export default Navigation;

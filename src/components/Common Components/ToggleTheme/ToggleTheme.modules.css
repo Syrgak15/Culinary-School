@@ -1,5 +1,15 @@
+.theme-toggle{
+    position: relative;
+}
+
 .theme-toggle i{
     color: var(--text-primary);
     position: absolute;
-    top: 26px;
+    top: -3px;
+}
+
+@media (max-width: 1440px){
+    .theme-toggle i{
+        right:28px;
+    }
 }

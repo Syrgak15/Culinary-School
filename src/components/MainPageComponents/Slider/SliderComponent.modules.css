@@ -50,3 +50,16 @@
 .swiper-button-prev{
     color:navajowhite;
 }
+
+@media (min-width: 770px) and (max-width: 1440px) {
+    .slider-wrapper{
+        width: fit-content;
+    }
+}
+
+@media (max-width: 768px) {
+    .slider-wrapper {
+        width: max-content;
+    }
+}
+

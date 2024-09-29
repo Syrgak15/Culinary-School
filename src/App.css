@@ -17,3 +17,8 @@
   color:cornflowerblue;
 }
 
+@media (max-width: 1440px){
+  .navLink{
+    font-size: 25px !important;
+  }
+}

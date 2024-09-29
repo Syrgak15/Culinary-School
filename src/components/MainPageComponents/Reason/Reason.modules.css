@@ -2,18 +2,26 @@
     background:var(--background);
     height:600px;
 }
+.reason-container{
+    position:relative;
+}
 .reason-title{
     font-family: var(--title-font-family);
     font-size: var(--subtitle-size);
     color: var(--text-primary);
-    text-align: center;
     margin-bottom: 25px;
+    position: absolute;
+    top: -95px;
+    left: 255px;
 }
 .reason-wrapper{
+    padding-top: 15px;
+    height:500px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap:30px;
+    padding-bottom: 145px;
 }
 .reason-wrapper__card {
     width: 245px;
@@ -36,4 +44,25 @@
     font-size: 20px;
     font-family: var(--text-font-family);
     color: var(--text-color );
+}
+
+
+@media (max-width:1024px){
+    .reason-title{
+        font-size: 25px;
+        left: 295px;
+    }
+}
+
+@media (max-width:768px){
+    .reason{
+        height:1600px;
+    }
+    .reason-wrapper{
+        display: flex;
+        flex-direction: column;
+        gap:125px;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
