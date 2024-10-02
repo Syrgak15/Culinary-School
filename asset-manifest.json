@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.8fc76007.css",
-    "main.js": "/static/js/main.eb4e3fcd.js",
-    "static/media/intro__video.mp4": "/static/media/intro__video.49b99ca2c6e7c427445b.mp4",
-    "static/media/openedcourse-bg.jpeg": "/static/media/openedcourse-bg.2c03602669e4a8edcc1e.jpeg",
-    "static/media/recipes-bg.jpg": "/static/media/recipes-bg.d082f647acd8a784bf62.jpg",
-    "static/media/location-bg.jpg": "/static/media/location-bg.c4957b5d5f82516d5bc0.jpg",
-    "static/media/slider__bg.jpg": "/static/media/slider__bg.cf877c44b571184bc832.jpg",
-    "static/media/lesson-bg.jpg": "/static/media/lesson-bg.2d352b2eab48a68a716f.jpg",
-    "static/media/inst.svg": "/static/media/inst.28ea80142c87faa7accf8c3a504b5b0a.svg",
-    "static/media/location_small.svg": "/static/media/location_small.f5d5d0a41f3a45e05b4393b063b4f35e.svg",
-    "index.html": "/index.html",
-    "static/media/location.svg": "/static/media/location.fee68025f54fcdb43ca92d802d8c94a3.svg",
-    "static/media/search-input.svg": "/static/media/search-input.b427b62c3448649cff4148abb26d164a.svg",
-    "static/media/youtube.svg": "/static/media/youtube.fd88c90e4ef06613a24fcc3e1020a1b2.svg",
-    "static/media/facebook.svg": "/static/media/facebook.f485b34f73c1f312debbe81d474679f3.svg",
-    "static/media/logo.svg": "/static/media/logo.b06b6f1187d2589985235d326314b7b7.svg",
-    "main.8fc76007.css.map": "/static/css/main.8fc76007.css.map",
-    "main.eb4e3fcd.js.map": "/static/js/main.eb4e3fcd.js.map"
+    "main.css": "/Culinary-School/static/css/main.620b6685.css",
+    "main.js": "/Culinary-School/static/js/main.c2940752.js",
+    "static/media/intro__video.mp4": "/Culinary-School/static/media/intro__video.49b99ca2c6e7c427445b.mp4",
+    "static/media/openedcourse-bg.jpeg": "/Culinary-School/static/media/openedcourse-bg.2c03602669e4a8edcc1e.jpeg",
+    "static/media/recipes-bg.jpg": "/Culinary-School/static/media/recipes-bg.d082f647acd8a784bf62.jpg",
+    "static/media/location-bg.jpg": "/Culinary-School/static/media/location-bg.c4957b5d5f82516d5bc0.jpg",
+    "static/media/slider__bg.jpg": "/Culinary-School/static/media/slider__bg.cf877c44b571184bc832.jpg",
+    "static/media/lesson-bg.jpg": "/Culinary-School/static/media/lesson-bg.2d352b2eab48a68a716f.jpg",
+    "static/media/inst.svg": "/Culinary-School/static/media/inst.28ea80142c87faa7accf8c3a504b5b0a.svg",
+    "static/media/location_small.svg": "/Culinary-School/static/media/location_small.f5d5d0a41f3a45e05b4393b063b4f35e.svg",
+    "index.html": "/Culinary-School/index.html",
+    "static/media/location.svg": "/Culinary-School/static/media/location.fee68025f54fcdb43ca92d802d8c94a3.svg",
+    "static/media/search-input.svg": "/Culinary-School/static/media/search-input.b427b62c3448649cff4148abb26d164a.svg",
+    "static/media/youtube.svg": "/Culinary-School/static/media/youtube.fd88c90e4ef06613a24fcc3e1020a1b2.svg",
+    "static/media/facebook.svg": "/Culinary-School/static/media/facebook.f485b34f73c1f312debbe81d474679f3.svg",
+    "static/media/logo.svg": "/Culinary-School/static/media/logo.b06b6f1187d2589985235d326314b7b7.svg",
+    "main.620b6685.css.map": "/Culinary-School/static/css/main.620b6685.css.map",
+    "main.c2940752.js.map": "/Culinary-School/static/js/main.c2940752.js.map"
   },
   "entrypoints": [
-    "static/css/main.8fc76007.css",
-    "static/js/main.eb4e3fcd.js"
+    "static/css/main.620b6685.css",
+    "static/js/main.c2940752.js"
   ]
 }
