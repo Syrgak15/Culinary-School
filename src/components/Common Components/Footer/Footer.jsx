@@ -41,7 +41,7 @@ const Footer = () => {
                             <ul>
                                 <li><NavLink
                                     onClick={handleScrollToTop}
-                                    className='footer-navLink' to='/lesson'
+                                    className='footer-navLink' to='/lessons'
                                              element={<LessonPage/>}>Lessons</NavLink></li>
                                 <li><NavLink
                                     onClick={handleScrollToTop}

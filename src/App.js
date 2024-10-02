@@ -28,7 +28,7 @@ function App() {
                 <CommonPage>
                     <Routes>
                         <Route index element={<MainPage/>}/>
-                        <Route path="/lesson" element={<LessonPage/>}/>
+                        <Route path="/lessons" element={<LessonPage/>}/>
                         <Route path="/recipes" element={<RecipesPage/>}/>
                         <Route path="/location" element={<LocationPage/>}/>
                         <Route path="/lessons/:id" element={<OpenedCourse/>}/>

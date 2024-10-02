@@ -42,7 +42,7 @@ const Navigation = ({lesson,button,location,recipes}) => {
                 <NavLink className='navLink-logo' to='/' element={<MainPage/>}>
                     Epicurean Arts
                 </NavLink>
-                <NavLink className='navLink' to='/lesson' element={<LessonPage/>}>{lesson}</NavLink>
+                <NavLink className='navLink' to='/lessons' element={<LessonPage/>}>{lesson}</NavLink>
                 <NavLink className='navLink' to='/recipes' element={<RecipesPage/>}>{recipes}</NavLink>
                 <NavLink className='navLink' to='/location' element={<LocationPage/>}>{location}</NavLink>
                 <Button onClick={handleOpen} variant="outlined" color='inherit' className='btn'>{button}</Button>
