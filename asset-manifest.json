@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Culinary-School/static/css/main.620b6685.css",
-    "main.js": "/Culinary-School/static/js/main.c2940752.js",
+    "main.js": "/Culinary-School/static/js/main.5fc620de.js",
     "static/media/intro__video.mp4": "/Culinary-School/static/media/intro__video.49b99ca2c6e7c427445b.mp4",
     "static/media/openedcourse-bg.jpeg": "/Culinary-School/static/media/openedcourse-bg.2c03602669e4a8edcc1e.jpeg",
     "static/media/recipes-bg.jpg": "/Culinary-School/static/media/recipes-bg.d082f647acd8a784bf62.jpg",
@@ -17,10 +17,10 @@
     "static/media/facebook.svg": "/Culinary-School/static/media/facebook.f485b34f73c1f312debbe81d474679f3.svg",
     "static/media/logo.svg": "/Culinary-School/static/media/logo.b06b6f1187d2589985235d326314b7b7.svg",
     "main.620b6685.css.map": "/Culinary-School/static/css/main.620b6685.css.map",
-    "main.c2940752.js.map": "/Culinary-School/static/js/main.c2940752.js.map"
+    "main.5fc620de.js.map": "/Culinary-School/static/js/main.5fc620de.js.map"
   },
   "entrypoints": [
     "static/css/main.620b6685.css",
-    "static/js/main.c2940752.js"
+    "static/js/main.5fc620de.js"
   ]
 }
