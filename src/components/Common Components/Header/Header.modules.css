@@ -1,6 +1,9 @@
 .container{
     position: relative;
 }
+.header{
+    width: 100%;
+}
 .header-title{
     font-size: var(--title-size);
     font-family: "Georgia";
@@ -11,4 +14,10 @@
     left:0;
     right:10px;
     z-index:1;
+}
+
+@media (max-width: 1440px){
+    .header{
+        width: fit-content;
+    }
 }

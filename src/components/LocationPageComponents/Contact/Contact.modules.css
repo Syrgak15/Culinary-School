@@ -1,6 +1,6 @@
 .contacts{
     width: 100%;
-    height:700px;
+    height: 800px;
     border-bottom: 1px solid grey;
     background: var(--background);
 }
@@ -22,8 +22,8 @@
     height: auto;
 }
 .contacts-wrapper__card__content{
-    font-family: "Georgia";
-    font-size: 23px;
+    font-family: "Georgia",sans-serif;
+    font-size: 29px;
     font-weight: bold;
     color:var(--text-primary);
     position: relative;
@@ -41,8 +41,8 @@
     width:60px;
 }
 .contacts__card__icon__small span{
-    font-size:22px;
-    font-family: "Noto sa";
+    font-size:28px;
+    font-family: "Noto sa",sans-serif;
     line-height: 30px;
 }
 .form-inputs{
@@ -61,5 +61,38 @@
 .country-select {
     width: 500px;
     margin-top: 15px;
+}
+
+@media (max-width: 1440px){
+    .contacts{
+        width: fit-content;
+    }
+}
+@media (max-width:1024px){
+    .contacts-wrapper__card__content{
+        font-size: 23px;
+    }
+    .contacts__card__icon__small span{
+        font-size: 22px;
+    }
+    .form-inputs .input{
+        width: 300px;
+    }
+    .country-select{
+        width: 300px;
+    }
+}
+
+@media (max-width:768px){
+    .form-inputs .input{
+        width: 200px;
+    }
+    .country-select{
+        width: 200px;
+    }
+    .contacts-wrapper{
+        flex-direction: column;
+        gap:25px;
+    }
 
 }

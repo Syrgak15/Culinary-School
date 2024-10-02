@@ -4,7 +4,7 @@ import useLocalStorage from "use-local-storage";
 
 const CommonPage = ({children}) => {
     return (
-        <div className='common-page'>
+        <div>
             {children}
         </div>
 

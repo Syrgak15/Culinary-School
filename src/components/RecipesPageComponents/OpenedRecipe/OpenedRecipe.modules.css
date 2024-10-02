@@ -13,11 +13,11 @@
 }
 .opened-recipe__content{
     margin-top: 100px;
+    font-size: 50px;
 }
 .opened-recipe__ingredients{
     padding-bottom: 20px;
     font-family: Ubuntu, sans-serif;
-    font-size: 35px;
     text-align: left;
     font-weight: 500;
     color: #88774f;
@@ -27,7 +27,6 @@
     margin-top: 20px;
     padding-left: 20px;
     font-family: "Noto sa", sans-serif;
-    font-size: 35px;
     text-align: left;
     font-weight: 500;
     color:dimgrey;
@@ -37,7 +36,6 @@
     margin-top: 50px;
     padding-bottom: 20px;
     font-family: Ubuntu, sans-serif;
-    font-size: 35px;
     text-align: left;
     font-weight: 500;
     color: #88774f;
@@ -46,14 +44,12 @@
 .opened-recipe__content__info{
     font-family: "Noto Sa", sans-serif;
     font-weight: 500;
-    font-size: 30px;
     color:dimgrey;
 }
 .opened-recipe__content__extra div{
     margin-top: 50px;
     padding-bottom: 20px;
     font-family: Ubuntu, sans-serif;
-    font-size: 35px;
     text-align: left;
     font-weight: 500;
     color: #88774f;
@@ -62,13 +58,12 @@
 .opened-recipe__content__extra {
     font-family: "Noto Sa", sans-serif;
     font-weight: 500;
-    font-size: 30px;
     color:dimgrey;
 }
 .opened-recipe__content__visual{
     margin-top: 100px;
     padding-top: 50px;
-    height:450px;
+    min-height: 100vh;
     display: grid;
     grid-template-columns:1fr 1fr 1fr;
 }
@@ -92,4 +87,33 @@
 }
 .content__visual__img img{
     width: 100px;
+}
+
+@media (max-width: 1440px){
+    .opened-recipe__content{
+        padding: 0px 35px;
+    }
+}
+
+@media (max-width:1024px){
+    .opened-recipe__title{
+        font-size: 45px;
+    }
+    .opened-recipe__content{
+        font-size: 42px;
+    }
+}
+
+@media (max-width: 768px){
+    .opened-recipe__content{
+        font-weight: bold;
+        font-size: 35px;
+    }
+    .opened-recipe__content__visual{
+        grid-template-columns:1fr;
+        margin-bottom: 55px;
+    }
+    .opened-recipe{
+        width:fit-content ;
+    }
 }

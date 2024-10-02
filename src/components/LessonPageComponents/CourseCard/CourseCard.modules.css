@@ -71,3 +71,21 @@
     color:var(--accent);
     background:var(--background);
 }
+
+@media (max-width: 1440px){
+    .courses-title{
+        margin-left: 45px;
+    }
+    .courses{
+        width: fit-content;
+    }
+}
+
+@media (max-width: 768px){
+    .courses-wrapper{
+        display: grid;
+    }
+    .courses{
+        height:4200px;
+    }
+}

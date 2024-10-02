@@ -276,7 +276,7 @@
         "heavy cream"
       ],
       "instructions": "Melt chocolate, whisk in egg yolks and sugar. Fold in whipped cream and chill before serving.",
-      "image": "https://bakerbynature.com/wp-content/uploads/2023/08/Easy-Chocolate-Mousse-Recipe-1.jpg",
+      "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2021/06/eggless-chocolate-mousse-1.jpg",
       "tips": "Use high-quality chocolate for the best flavor.",
       "serving_size": "4 servings",
       "prep_time": "15 minutes",
@@ -420,6 +420,19 @@
         "country": {
           "value": "kyrgyzstan",
           "label": "Kyrgyzstan"
+        }
+      }
+    },
+    {
+      "id": "5a3e",
+      "firstName": "Syrgak",
+      "lastName": "Sulaimanov",
+      "phoneNumber": "+996551150108",
+      "email": "apaccik@gmail.com",
+      "address": {
+        "country": {
+          "value": "russia",
+          "label": "Russia"
         }
       }
     }

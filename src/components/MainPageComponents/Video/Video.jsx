@@ -5,7 +5,7 @@ const Video = ({title,info}) => {
     return (
         <div>
             <div className="video-wrapper">
-                <video className="video" autoPlay preload="auto" muted loop src={introVideo}></video>
+                <video className="video" autoPlay preload="auto"  playsinline muted loop src={introVideo}></video>
             </div>
             <div className="intro-wrapper">
                 <div className="intro-wrapper__box">

@@ -1,7 +1,8 @@
-.intro-wrapper{
-    position:relative;
+.intro-wrapper {
+    position: relative;
 }
-.intro-wrapper__box{
+
+.intro-wrapper__box {
     margin: 0 auto;
     margin-top: 100px;
     padding: 20px;
@@ -9,34 +10,98 @@
     height: 350px;
     text-align: center;
     background-color: transparent;
-    border:1px solid white;
+    border: 1px solid white;
     position: absolute;
-    top:-680px;
-    left:0;
-    right:0;
+    top: -680px;
+    left: 0;
+    right: 0;
+    z-index: 2;
 }
-.intro-wrapper .intro-wrapper__box__title span{
+
+.intro-wrapper .intro-wrapper__box__title span {
     font-size: var(--title-size);
     font-family: var(--title-font-family);
     font-weight: 500;
-    color:white;
-}
-.intro-wrapper .intro-wrapper__box__content p{
-    font-family: var(--text-font-family);
-    font-size:var(--text-size);
-    color:white;
-    font-weight: 400;
-}
-.video-wrapper {
-    width: 100%;
-    height: 700px;
-    overflow: hidden;
+    color: white;
 }
 
+.intro-wrapper .intro-wrapper__box__content p {
+    font-family: var(--text-font-family);
+    font-size: var(--text-size);
+    color: white;
+    font-weight: 400;
+}
+
+.video-wrapper {
+    width: 100vw;
+    height: 700px;
+    position: relative;
+    overflow: hidden;
+}
+.video-wrapper::before{
+    content:'';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
 .video-wrapper .video {
     width: 100%;
-    height: auto;
-    max-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     object-fit: cover;
 }
 
+@media (max-width: 1440px) {
+    .intro-wrapper__box {
+        height: 350px;
+        top: -600px;
+        left:220px;
+    }
+    .video-wrapper{
+        width: 1440px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .video-wrapper {
+        height: 500px;
+    }
+    .intro-wrapper__box {
+        margin-top: 150px;
+        left:220px;
+    }
+}
+
+@media (max-width: 768px) {
+    .video-wrapper {
+        height: 400px;
+    }
+    .intro-wrapper__box {
+        width: 95%;
+        height: auto;
+        margin-top: 120px;
+        top: -500px;
+        left:340px;
+    }
+    .intro-wrapper .intro-wrapper__box__title span {
+        font-size: calc(var(--title-size) * 0.8);
+    }
+    .intro-wrapper .intro-wrapper__box__content p {
+        font-size: calc(var(--text-size) * 0.8);
+    }
+}
+@media (max-width: 574px){
+    .intro-wrapper__box {
+        width: 95%;
+        height: auto;
+        margin-top: 120px;
+        top: -500px;
+        left:450px;
+    }
+}

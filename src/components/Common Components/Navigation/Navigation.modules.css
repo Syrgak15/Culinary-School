@@ -1,7 +1,6 @@
 .navigation{
     width: 100% !important;
     background:var(--background);
-
 }
 
 .navigation-container{
@@ -62,5 +61,8 @@
 @media (max-width: 1440px) {
     .navLink-logo {
         padding-left:30px;
+    }
+    .navigation{
+        width:fit-content;
     }
 }

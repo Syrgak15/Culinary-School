@@ -10,9 +10,10 @@ const Header = ({title,backgroundImage}) => {
         backgroundPosition: 'center',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
+        objectFit:'cover'
     };
     return (
-        <div>
+        <div className='header'>
             <div style={headerStyle}></div>
             <div className="container">
                 <div className="header-title">
