@@ -11,6 +11,7 @@ import OpenedRecipe from "./components/RecipesPageComponents/OpenedRecipe/Opened
 import CommonPage from "./pages/CommonPage/CommonPage";
 import { useTranslation } from "react-i18next";
 import useLocalStorage from "use-local-storage";
+import {BASE_URL} from "./variables";
 
 function App() {
     const { t } = useTranslation();
@@ -28,10 +29,10 @@ function App() {
                 <CommonPage>
                     <Routes>
                         <Route index element={<MainPage/>}/>
-                        <Route path="/lessons" element={<LessonPage/>}/>
+                        <Route path={`${BASE_URL}/lessons`} element={<LessonPage/>}/>
                         <Route path="/recipes" element={<RecipesPage/>}/>
                         <Route path="/location" element={<LocationPage/>}/>
-                        <Route path="/lessons/:id" element={<OpenedCourse/>}/>
+                        <Route path={`${BASE_URL}/lessons/:id`} element={<OpenedCourse/>}/>
                         <Route path="/recipes/:id" element={<OpenedRecipe/>}/>
                     </Routes>
                 </CommonPage>

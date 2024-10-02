@@ -1,6 +1,6 @@
 {
   "name": "my-app",
-  "homepage": "/",
+  "homepage": "https://syrgak15.github.io/Culinary-School/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -34,7 +34,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "deploy" : "CULINARY_SCHOOL_BASEURL=\"/Culinary-School\" gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
