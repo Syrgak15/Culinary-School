@@ -28,12 +28,12 @@ function App() {
                 />
                 <CommonPage>
                     <Routes>
-                        <Route index element={<MainPage/>}/>
+                        <Route index path={`${BASE_URL}`} element={<MainPage/>}/>
                         <Route path={`${BASE_URL}/lessons`} element={<LessonPage/>}/>
-                        <Route path="/recipes" element={<RecipesPage/>}/>
-                        <Route path="/location" element={<LocationPage/>}/>
+                        <Route path={`${BASE_URL}/recipes`} element={<RecipesPage/>}/>
+                        <Route path={`${BASE_URL}/location`} element={<LocationPage/>}/>
                         <Route path={`${BASE_URL}/lessons/:id`} element={<OpenedCourse/>}/>
-                        <Route path="/recipes/:id" element={<OpenedRecipe/>}/>
+                        <Route path={`${BASE_URL}/recipes/:id`} element={<OpenedRecipe/>}/>
                     </Routes>
                 </CommonPage>
             </BrowserRouter>
