@@ -1,6 +1,6 @@
 import './App.css';
 import MainPage from "./pages/MainPage/MainPage";
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import {Routes, Route, BrowserRouter, HashRouter} from "react-router-dom";
 import LessonPage from "./pages/LessonPage/LessonPage";
 import LocationPage from "./pages/LocationPage/LocationPage";
 import RecipesPage from "./pages/RecipesPage/RecipesPage";
@@ -11,7 +11,6 @@ import OpenedRecipe from "./components/RecipesPageComponents/OpenedRecipe/Opened
 import CommonPage from "./pages/CommonPage/CommonPage";
 import { useTranslation } from "react-i18next";
 import useLocalStorage from "use-local-storage";
-import {BASE_URL} from "./variables";
 
 function App() {
     const { t } = useTranslation();
@@ -19,7 +18,7 @@ function App() {
 
     return (
         <div className="App" data-theme={theme}>
-            <BrowserRouter>
+            <HashRouter>
                 <Navigation
                     lesson={t("navigation:lessons")}
                     recipes={t("navigation:recipes")}
@@ -29,14 +28,14 @@ function App() {
                 <CommonPage>
                     <Routes>
                         <Route index element={<MainPage/>}/>
-                        <Route path={`${BASE_URL}/lessons`} element={<LessonPage/>}/>
-                        <Route path={`${BASE_URL}/recipes`} element={<RecipesPage/>}/>
-                        <Route path={`${BASE_URL}/location`} element={<LocationPage/>}/>
-                        <Route path={`${BASE_URL}/lessons/:id`} element={<OpenedCourse/>}/>
-                        <Route path={`${BASE_URL}/recipes/:id`} element={<OpenedRecipe/>}/>
+                        <Route  path="/lessons" element={<LessonPage/>}/>
+                        <Route  path="/recipes" element={<RecipesPage/>}/>
+                        <Route  path="/location" element={<LocationPage/>}/>
+                        <Route  path="/lessons/:id" element={<OpenedCourse/>}/>
+                        <Route  path="/recipes/:id" element={<OpenedRecipe/>}/>
                     </Routes>
                 </CommonPage>
-            </BrowserRouter>
+            </HashRouter>
         </div>
 
     );

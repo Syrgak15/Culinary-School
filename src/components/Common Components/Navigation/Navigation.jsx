@@ -16,7 +16,6 @@ import TextField from "@mui/material/TextField";
 import {useDispatch, useSelector} from "react-redux";
 import useLocalStorage from "use-local-storage";
 import ToogleTheme from "../ToggleTheme/ToggleTheme";
-import {BASE_URL} from "../../../variables";
 
 const Navigation = ({lesson,button,location,recipes}) => {
     const style = {
@@ -43,7 +42,7 @@ const Navigation = ({lesson,button,location,recipes}) => {
                 <NavLink className='navLink-logo' to='/' element={<MainPage/>}>
                     Epicurean Arts
                 </NavLink>
-                <NavLink className='navLink' to={`${BASE_URL}/lessons`} element={<LessonPage/>}>{lesson}</NavLink>
+                <NavLink className='navLink' to='/lessons' element={<LessonPage/>}>{lesson}</NavLink>
                 <NavLink className='navLink' to='/recipes' element={<RecipesPage/>}>{recipes}</NavLink>
                 <NavLink className='navLink' to='/location' element={<LocationPage/>}>{location}</NavLink>
                 <Button onClick={handleOpen} variant="outlined" color='inherit' className='btn'>{button}</Button>
